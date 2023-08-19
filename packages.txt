@@ -1,0 +1,21 @@
+1. npm i -g typescript 
+tsc --version
+
+npm i -g ts-node -->> Run typescript file directly
+
+2. npm init --y
+3. npx tsc --init  -->> This will generate the folder for typescript configuration
+4. npm i @types/node
+5. npm i -g ts-node
+
+RUN :-
+
+1. tsc -->> First Convert the file into .js then run the command from "node server.js" 
+2. ts-node -->> Easy method ; This will run your typescript file directly without converting it into .js like ts-node server.ts    
+3. nodemon app.ts
+
+Install typescript with express
+
+npm i express 
+npm i @types/express 
+npm i nodemon
